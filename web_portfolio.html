@@ -28,9 +28,11 @@
 			  <div class="devinfo">
 			   <div class="hello">Hi.. I am</div>
 			   <div class="name">Ria Riya Pillai</div>
-			   <div class="about">Begginer, Learner& Full Stack Developer</div>
+			   <div class="about">
+			   <span id="element"></span>	</div>
 			   <div class="moreabout">I am learn web 
-			                design essential for become a Front End Web developer.							
+			                design essential for become a Front End Web developer.
+                						
 			   </div>
 			   <div class="buttons">
 			        <a href="riyaresume.pdf" target="blank">
@@ -43,6 +45,13 @@
 			</div>
 		 </div>		 
 	 </div>
-	 <script src="/web.js"></script>
+	 
+	 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+	 <script>
+    var typed = new Typed('#element', {
+      strings: ['Begginer ,Learner','&amp;Full Stack Web Developer.'],
+      typeSpeed: 50,
+    });
+  </script>
 	</body>
 </html>
